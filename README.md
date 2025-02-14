@@ -37,4 +37,4 @@ The following query parameters can be used to filter the transactions:
 You can test the endpoint using Postman or Curl. Here's an example request:
 
 ```http
-GET http://localhost:8080/transactions?dateFrom=2023-01-01&dateTo=2023-12-31&userId=user123&service=serviceA&offset=0&limit=10&status=completed&reference=ref123
+GET http://localhost:8080/transactions?dateFrom=2023-01-01&dateTo=2025-02-11&userId=user123&service=serviceA&offset=0&limit=10&status=completed&reference=ref123
