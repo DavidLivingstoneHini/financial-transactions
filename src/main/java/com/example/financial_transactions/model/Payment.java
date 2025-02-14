@@ -2,7 +2,6 @@ package com.example.financial_transactions.model;
 
 public class Payment {
     private String id;
-    // Other fields...
 
     // Getters and Setters
     public String getId() {
