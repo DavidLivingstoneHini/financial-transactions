@@ -9,4 +9,3 @@ public interface FinancialTransactionRepository extends JpaRepository<FinancialT
     Page<FinancialTransaction> findByDateBetweenAndUserIdAndServiceAndStatusAndReference(
             String dateFrom, String dateTo, String userId, String service, String status, String reference, Pageable pageable);
 }
-
