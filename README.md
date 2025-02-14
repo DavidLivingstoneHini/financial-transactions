@@ -8,9 +8,6 @@ Spring Boot application that provides an endpoint to fetch financial transaction
 - [API Endpoint](#api-endpoint)
 - [Query Parameters](#query-parameters)
 - [Example Request](#example-request)
-- [Usage](#usage)
-- [Enhancements](#enhancements)
-- [License](#license)
 
 ## Overview
 
