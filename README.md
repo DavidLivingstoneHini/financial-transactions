@@ -1,6 +1,6 @@
 # Financial Transactions API
 
-This repository contains a basic Spring Boot application that provides an endpoint to fetch financial transactions based on specified filters.
+Spring Boot application that provides an endpoint to fetch financial transactions based on specified filters.
 
 ## Table of Contents
 
