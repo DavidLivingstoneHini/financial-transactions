@@ -8,7 +8,6 @@ public class Payment {
         this.id = id;
     }
 
-    // Default constructor (optional, but can be useful)
     public Payment() {
     }
 
