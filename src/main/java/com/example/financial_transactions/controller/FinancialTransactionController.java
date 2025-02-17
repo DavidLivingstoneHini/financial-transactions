@@ -60,9 +60,9 @@ public class FinancialTransactionController {
                             });
                 })
                 .onErrorResume(WebClientResponseException.class, e -> {
-                    // Create a response object to return in case of an error
+
                     DataListPaymentResponse errorResponse = new DataListPaymentResponse();
-                    errorResponse.setPayments(List.of()); // or handle it appropriately
+                    errorResponse.setPayments(List.of()); 
 
                     return Mono.just(ResponseEntity.status(e.getStatusCode()).body(errorResponse));
                 });
