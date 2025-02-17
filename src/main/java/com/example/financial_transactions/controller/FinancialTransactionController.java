@@ -54,7 +54,7 @@ public class FinancialTransactionController {
 
                                 DataListPaymentResponse response = new DataListPaymentResponse();
                                 response.setPayments(sortedPayments);
-                                // Add HATEOAS links here if necessary
+
 
                                 return ResponseEntity.ok(response);
                             });
@@ -69,7 +69,7 @@ public class FinancialTransactionController {
     }
 
     private Mono<Payment> retrieveFinancialTransaction(String paymentId) {
-        // Create a Payment object using the constructor
-        return Mono.just(new Payment(paymentId)); // Example implementation
+
+        return Mono.just(new Payment(paymentId)); 
     }
 }
